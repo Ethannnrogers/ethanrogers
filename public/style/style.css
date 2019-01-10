@@ -1506,6 +1506,13 @@ ul {
 
   }
 
+  #mobile-content {
+    color: white;
+    display: none;
+    margin-top: 3em;
+    padding: 1em;
+  }
+
 
   @media only screen and (max-width: 1200px) {
     
@@ -1527,6 +1534,10 @@ ul {
 
    #dev-for {
      font-size: 5em;
+   }
+
+   .swapblocks-iframe {
+     height: 24.5em!important;
    }
 
    #skills {
@@ -1568,6 +1579,14 @@ ul {
   }
   #dev-for {
     font-size: 3.8em;
+  }
+
+  #body-content {
+    display: none;
+  }
+
+  #mobile-content {
+    display: block;
   }
 
   #bio-1 {
